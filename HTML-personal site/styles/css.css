@@ -1,0 +1,24 @@
+.styleclass {
+    border: 10px solid yellow;
+}
+
+.img {
+   justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
+
+#slide {
+    display: none;
+
+}
+
+#drop {
+    width: 400px;
+    height: 400px;
+    float: right;
+    background: aquamarine;
+}
