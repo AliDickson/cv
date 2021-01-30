@@ -1,0 +1,15 @@
+.image-wrap {
+    float: right;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
+
+#drop{
+    width: 400px;
+    height: 400px;
+    float: right;
+    background: yellow;
+}

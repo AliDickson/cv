@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/stylecss.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <div class="container">
+        <div id="alertid" style="display:none;" class="alert alert-danger col-6 offset-3 text-center" role="alert">
+            Invalid username or password!
+        </div>
+        <form action="process-php" method="POST">
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" id="userid" class="form-control" placeholder="Enter First Name" required>
+            </div>
+            <div class="form-group">
+                <label>Middle Name</label>
+                <input type="text" id="useid" class="form-control" placeholder="Enter Middle Name">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" id="usersid" class="form-control" placeholder="Enter Last Name">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" id="mailid" class="form-control" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="passid" class="form-control" placeholder="Enter Password">
+            </div>
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" id="ageid" class="form-control" placeholder="Enter Age">
+            </div>
+            <div class="form-group">
+                <label>Date Of Birth</label>
+                <input type="date" id="birthid" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select class="form-control" id="genid">
+                    <option value="">Select</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button id="button" class="btn btn-outline-success form-control">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mainjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/stylecss.css">
+</head>
+<body>
+    <h1 class="text-center mt-3 mb-3 h2 text-primary">Form</h1>
+    <div class="container">
+        <div id="alertid" style="display:none;" class="alert alert-danger col-6 offset-3 text-center" role="alert">
+            Invalid username or password!
+        </div>
+        <!-- <form action="process-php" method="POST"> -->
+        <div >
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" class="form-control" placeholder="Enter First Name" id="user">
+            </div>
+            <div class="form-group">
+                <label>Middle Name</label>
+                <input type="text" class="form-control" placeholder="Enter Middle Name" id="middle">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" class="form-control" placeholder="Enter Last Name">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text"class="form-control" placeholder="Enter Email">
+            </div>
+        </div>
+        <div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password"  id="pass">
+            </div>
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" class="form-control" placeholder="Enter Age">
+            </div>
+            <div class="form-group">
+                <label>Date Of Birth</label>
+                <input type="date" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select class="form-control">
+                    <option value="">Select</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Other</option>
+                </select>
+            </div> 
+            <div class="form-group">
+                <button id="btnsubmitid" class="btn btn-outline-success form-control">Submit</button>
+            </div>
+        </div>
+         <!-- </form> -->
+
+        <p id="pid" class="text-center mt-4 h4 text-info"></p>
+        <p id="pid1" class="text-center mt-4 text-danger"></p>
+
+    </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/logform.js"></script>
+</body>
+</html>
